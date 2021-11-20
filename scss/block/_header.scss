@@ -1,0 +1,149 @@
+body{
+    overflow-x: hidden ;
+    // background: #00F260;  
+    // background: -webkit-linear-gradient(to right, #0575E6, #00F260); 
+    // background: linear-gradient(to right, #0575E6, #00F260);
+    background-image: url(./../../image/forest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+.header{
+    margin-bottom: 200px;
+}
+
+.btn-outline-success{
+    margin: 0;
+    padding: 0;
+    padding: 5px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    font-weight: 700;
+}
+.btn-outline-danger{
+    margin: 0;
+    padding: 0;
+    padding: 5px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    font-weight: 700;
+}
+.heading-4{
+    margin: 0;
+    padding: 0;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    margin-left: 20px;
+}
+.next{
+    margin-top: 100px;
+    margin-left: 270px;
+}
+.btn-s{
+    width: 400px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    bottom: none;
+    margin-top: 15px;
+}
+.card{
+    list-style-type: none;
+}
+.avanger-image{
+    width: 310px;
+    height: 180px;
+}
+.father {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1400px;
+    margin-left: 30px;
+
+
+}
+
+.buttons{
+    padding: 0;
+    position: relative;
+    bottom: 365px ;
+    left: 120px;
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+}
+.fars{
+    position: absolute;
+    right: 1200px;
+    top: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btns{
+    margin-bottom: -300px;
+}
+.rotate{
+    transform: rotate(180deg);
+    transform: matrix3d();
+}
+.buttons{
+    transition: .5s ease all;
+}
+.cound {
+    margin: 0;
+    font-size: 20px;
+}
+.card-title{
+    background: #108dc7; 
+    background: -webkit-linear-gradient(to right, #ef8e38, #108dc7);  
+    background: linear-gradient(to right, #ef8e38, #108dc7); 
+    cursor: pointer;
+    border-radius: 50%;
+
+    &:hover{
+        transform: scale(1.1);
+        transition: 1s;
+        
+    }
+}
+.card-text{
+    background: #fffbd5;  
+    background: -webkit-linear-gradient(to right, #b20a2c, #fffbd5); 
+    background: linear-gradient(to right, #b20a2c, #fffbd5); 
+    cursor: pointer;
+    border-radius: 50%;
+
+    &:hover{
+        transform: scale(1.1);
+        transition: 1s;
+        
+    }
+
+}
+.btns{
+    margin-left: 595px;
+    
+    &:hover{
+        transform: scale(1.2);
+        transition: 1s;
+        
+    }
+}
+.active-btn{
+    margin-left: -43.5px;
+    margin-top: 38px;
+}
+.card{
+    background: #d1cf50;
+    margin: 10px;
+
+  
+}
+.card:hover {
+    box-shadow: 15px 12px 2px 1px rgba(10, 0, 255, .2);
+        transition: 1s ease all;
+}
